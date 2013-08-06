@@ -1,5 +1,6 @@
 * {
-  text-align: center;
+	text-align: center;
+  font-family: Arial;
 }
 
 body {
@@ -7,12 +8,12 @@ body {
 	margin: 0 auto;
 }
 
-content {
+#content {
 	overflow: auto;
 	height: 100%;
 }
 
-nav, #feature, footer {
+nav, #feature, #footer {
 	background-color: #efefef;
 	padding: 10px;
 	margin: 10px;
