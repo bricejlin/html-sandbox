@@ -98,11 +98,19 @@ h2 {
 	border-bottom: 1px solid #665544;
 }*/
 
+div#container {
+	margin-top: 20px;
+	border: 1px solid green;
+	overflow: auto;
+	padding: 5px;
+}
+
 p {
-	width: 230px;
+	width: 200px;
 	float: left;
+	margin: 5px;
 	background-color: white;
-	padding: 15px 20px;
+	padding: 15px 15px;
 	line-height: 1.5em;
 	font-size: 16px;
 	border-radius: 0px 50px 0px 50px;
@@ -110,7 +118,7 @@ p {
 
 p.paragraph:first-letter {
 	font-size: 200%;
-	margin-right: -6px;
+	margin-right: -3px;
 }
 
 p.paragraph {
