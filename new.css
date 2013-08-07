@@ -1,0 +1,12 @@
+nav ul li {
+	/*float: left;*/
+	display: inline;
+	list-style: none;
+	margin-right: 5px;
+	transition: -webkit-transform 2s;
+	-webkit-transition: -webkit-transform 2s;
+}
+nav ul li:hover {
+  -webkit-transform: rotate(180deg);
+  background-color: #1ec7e6;
+}
